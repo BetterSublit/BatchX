@@ -8,4 +8,4 @@ jobs:
       - uses: dguo/check-author-and-committer-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          committer-auth-regex: '@example\.com$'
+          author-email-regex: '@example\.com$'
